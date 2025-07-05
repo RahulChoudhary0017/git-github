@@ -1,0 +1,45 @@
+# mode of file handiling
+'r'# read mode
+'w'# write mode
+'a'# append mode
+'x'# create mode
+
+
+
+
+file = open('demo.txt','r')
+file.read()
+file.close()
+
+
+
+file = open('demo.txt','r')
+file.read()
+file.close()
+
+
+file = open('demo.txt','w')
+file.write('this is file')
+
+
+
+file = open('demo.txt','a')
+file.write('my name is rahul')
+file.close()
+
+
+file = open('demo.txt','r')
+file.read()
+
+
+file = open('new.txt','x')
+file.write('my name is rahul')
+file.close()
+
+
+
+file = open ('demo.txt','r')
+file.readlines()
+
+
+

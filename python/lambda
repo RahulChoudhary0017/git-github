@@ -1,0 +1,14 @@
+# lambda function
+square = lambda x : x*2
+print(square(5))
+
+
+
+
+add = lambda x , y : x+y
+print(add(5,10))
+
+
+
+mul = lambda x, y :x*y
+print(mul(12,14))
